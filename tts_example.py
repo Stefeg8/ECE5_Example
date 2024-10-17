@@ -16,5 +16,6 @@ tts = TTS("tts_models/multilingual/multi-dataset/xtts_v2").to(device)
 #wav = tts.tts(text="Hello world!", speaker_wav="my/cloning/audio.wav", language="en")
 # Text to speech to a file
 time1 = time.time()
-tts.tts_to_file(text="Balls are squishy and I love having cocks in my mouth but sometimes it hurts so I can't have it in my mouth all the time. It is very unfortunate but I'll have to make do.", speaker_wav=["emily1.wav", "IMG_1306.wav", "IMG_1307.wav", "IMG_1308.wav","IMG_1309.wav","IMG_1310.wav","IMG_1313.wav","IMG_1314.wav","IMG_1315.wav"], language="en", file_path="output1.wav")
+
+tts.tts_to_file(text="Balls are squishy and I love having cocks in my mouth but sometimes it hurts so I can't have it in my mouth all the time. It is very unfortunate but I'll have to make do.", speaker_wav=["emily1.wav", "IMG_1306.wav", "IMG_1307.wav", "IMG_1308.wav","IMG_1309.wav","IMG_1310.wav","IMG_1313.wav","IMG_1314.wav","IMG_1315.wav"], language="en", file_path="balsshd.wav")
 print(f"Time taken for TTS: {time.time() - time1}")
